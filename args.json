@@ -3,17 +3,6 @@
   "base_url": "https://members.codewithmosh.com",
   "course_base_link": "https://members.codewithmosh.com/courses/the-ultimate-docker-course/lectures/31450209",
   "request_headers": {
-    "authority": "members.codewithmosh.com",
-    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-    "cookie": "ahoy_visitor=adda9d68-b22d-4d36-8e2b-da31f733470c; ahoy_track=true; _afid=adda9d68-b22d-4d36-8e2b-da31f733470c; aid=adda9d68-b22d-4d36-8e2b-da31f733470c; sk_t22ds596_remember_me=1; signed_in=true; site_preview=logged_in; aid=adda9d68-b22d-4d36-8e2b-da31f733470c; __stripe_mid=8717d27a-5b46-44f4-818e-b2ba85638a004bae04; _gcl_au=1.1.1072795750.1697295756; __cfruid=3a4c40eca165d7625ccb36fe078fb476a80fb13e-1697295793; _cfuvid=gxd_dg3Lb6UHizdhJd4KhXhmGg7R.9laUVaQ47jm0Gg-1697295793263-0-604800000; cf_clearance=h7J8_hA20WXOLJuk72F1Px5Qe_Wsb3OHHAn5YM.tb.g-1697295795-0-1-e513fed8.93e38613.bb09c868-0.2.1697295795; ahoy_visit=ae56bc99-f186-4029-834f-124714947c9d; sk_t22ds596_access=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ1c2VyIiwiaWF0IjoxNjk3Mjk1ODIyLCJqdGkiOiJiMWIzNTA0Yi01ZjIxLTRjNWUtOGZkMC0zZDBlYTYwMmJmMmEiLCJpc3MiOiJza190MjJkczU5NiIsInN1YiI6IjhhZjhiOGEyLTQ0YzItNDY4OS04YjAwLWEwYmE3ZTljYTk3YiJ9.6-AXz0yx78zYEGYUzxSF_IX_A941XoIjyvTkl_qfBzo; _session_id=abefd0d0f9af71be2845ecc4de9af2b0; ac_enable_tracking=1; ajs_group_id=null; ajs_user_id=%2246406596%22; ajs_anonymous_id=%22ef0685d4-a633-4b78-8299-2d0bf5b4a122%22; _ga_E720JHXSJ2=GS1.1.1697295826.1.0.1697295826.60.0.0; _ga=GA1.1.1702379534.1697295826; _hp2_id.318805607=%7B%22userId%22%3A%227905160803602914%22%2C%22pageviewId%22%3A%22415757609727836%22%2C%22sessionId%22%3A%228898132374144756%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; _hp2_ses_props.318805607=%7B%22z%22%3A0%2C%22r%22%3A%22https%3A%2F%2Fsso.teachable.com%2F%22%2C%22ts%22%3A1697295826456%2C%22d%22%3A%22members.codewithmosh.com%22%2C%22h%22%3A%22%2F%22%2C%22t%22%3A%22Code%20with%20Mosh%22%7D",
-    "referer": "https://members.codewithmosh.com/",
-    "sec-ch-ua-mobile": "?0",
-    "sec-fetch-dest": "document",
-    "sec-fetch-mode": "navigate",
-    "sec-fetch-site": "same-origin",
-    "sec-fetch-user": "?1",
-    "upgrade-insecure-requests": "1",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+
   }
 }
