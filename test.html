@@ -1,0 +1,2827 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:32,height:32/https://www.filepicker.io/api/file/9OxlMI8TjGM2W6ELElMd' rel='icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:72,height:72/https://www.filepicker.io/api/file/9OxlMI8TjGM2W6ELElMd' rel='apple-touch-icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:144,height:144/https://www.filepicker.io/api/file/9OxlMI8TjGM2W6ELElMd' rel='apple-touch-icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:320,height:345/https://www.filepicker.io/api/file/6zhFyn86QRiFf5LTgQ0F' rel='apple-touch-startup-image' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:640,height:690/https://www.filepicker.io/api/file/6zhFyn86QRiFf5LTgQ0F' rel='apple-touch-startup-image' type='image/png'>
+
+<meta name='apple-mobile-web-app-capable' content='yes' />
+<meta charset="UTF-8">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="K4IFYyvp9rkKimhzAYeVM0jVkmKhoJMskhXjnfuKj3lr0juiyId26xC6Ih61BdZGvBm9auQxrBC09t+a+uCYrQ==" />
+<link rel="stylesheet" media="screen" href="https://fedora.teachablecdn.com/assets/bootstrap-d989a3f5b1f1bca0585c204acf93e7e781ab3db1f16f403a5e77336f1c4d4c0f.css" data-turbolinks-track="true" /><link href="https://themes2.teachablecdn.com/themecss/production/base.css?_=b0bf0c53708b&amp;brand_course_heading=%23ffffff&amp;brand_heading=%23191919&amp;brand_homepage_heading=%23ffffff&amp;brand_navbar_fixed_text=%23707070&amp;brand_navbar_text=%23707070&amp;brand_primary=%23ffffff&amp;brand_secondary=%23fc4364&amp;brand_text=%234d4d4d&amp;logged_out_homepage_background_image_overlay=0.0&amp;logged_out_homepage_background_image_url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2F6zhFyn86QRiFf5LTgQ0F" rel="stylesheet" data-turbolinks-track="true"></link>
+<title>1- Introduction | Code with Mosh</title>
+<meta name="description" content="Everything you need to master Docker in one clear, concise, and practical course">
+<link rel="canonical" href="https://codewithmosh.com/courses/1359863/lectures/31450209">
+<meta property="og:description" content="Everything you need to master Docker in one clear, concise, and practical course">
+<meta property="og:image" content="https://www.filepicker.io/api/file/el6Vw2cNTxeTWzrUaxO7">
+<meta property="og:title" content="1- Introduction">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://codewithmosh.com/courses/1359863/lectures/31450209">
+<meta name="brand_video_player_color" content="#fc4364">
+<meta name="site_title" content="Code with Mosh">
+<style></style>
+<script src='//fast.wistia.com/assets/external/E-v1.js'></script>
+<script src='https://www.recaptcha.net/recaptcha/api.js' async defer></script>
+
+
+      <meta name="asset_host" content="https://fedora.teachablecdn.com">
+     <script src="https://fedora.teachablecdn.com/packs/student-globals-93e7b084b5e6591f044d.js"></script><script src="https://fedora.teachablecdn.com/packs/student-legacy-9ff78921fd57e2a66e22.js"></script><script src="https://fedora.teachablecdn.com/packs/student-2580d286bb92495b55c9.js"></script>
+
+<link rel="stylesheet" href="https://codewithmosh-assets.netlify.app/styles.8986bff4.css?v=1" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WZDH8X3');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Global site tag (gtag.js) - Google Ads: 961214977 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-961214977"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'AW-961214977');
+ gtag('config', 'UA-66465936-2', { 
+     'linker': {
+         'domains': ['codewithmosh.com', 'teachable.com', 'programmingwithmosh.com']
+     }
+ });
+ gtag('config', 'UA-107342491-1', { 'optimize_id': 'GTM-MMDJGCK'});
+</script>
+
+
+<!-- ActiveCampaign -->
+<script type="text/javascript">
+	// Set to false if opt-in required
+	var trackByDefault = true;
+
+	function acEnableTracking() {
+		var expiration = new Date(new Date().getTime() + 1000 * 60 * 60 * 24 * 30);
+		document.cookie = "ac_enable_tracking=1; expires= " + expiration + "; path=/";
+		acTrackVisit();
+	}
+
+	function acTrackVisit() {
+		var trackcmp_email = '';
+		var trackcmp = document.createElement("script");
+		trackcmp.async = true;
+		trackcmp.type = 'text/javascript';
+		trackcmp.src = '//trackcmp.net/visit?actid=89545604&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+		var trackcmp_s = document.getElementsByTagName("script");
+		if (trackcmp_s.length) {
+			trackcmp_s[0].parentNode.appendChild(trackcmp);
+		} else {
+			var trackcmp_h = document.getElementsByTagName("head");
+			trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
+		}
+	}
+
+	if (trackByDefault || /(^|; )ac_enable_tracking=([^;]+)/.test(document.cookie)) {
+		acEnableTracking();
+	}
+</script>
+<!-- End of ActiveCampaign -->
+
+
+<script src="https://my.hellobar.com/b9e58eff724f913d2339258027a6c7874805fbbe.js" type="text/javascript" charset="utf-8" async="async"></script>
+
+
+<script>
+  if(typeof ga != 'function') {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  }
+  ga('create', 'UA-44397410-1', 'auto', {'name': 'fedoraTracker', 'allowLinker': true});
+  ga('fedoraTracker.set', 'anonymizeIp', false);
+  ga('fedoraTracker.require', 'linker');
+  ga('fedoraTracker.linker:autoLink', ['codewithmosh.com',  'sso.teachable.com'], false, true );
+  ga('fedoraTracker.require', 'ecommerce');
+  ga('fedoraTracker.require', 'ec');
+  ga('fedoraTracker.send', 'pageview');
+  ga('create', 'UA-44397410-4', 'auto', {'name': 'teachableTracker', 'allowLinker': true});
+  ga('teachableTracker.set', 'anonymizeIp', false);
+  ga('teachableTracker.require', 'linker');
+  ga('teachableTracker.linker:autoLink', ['codewithmosh.com', 'sso.teachable.com'], false, true );
+  ga('teachableTracker.require', 'ecommerce');
+  ga('teachableTracker.require', 'ec');
+  ga('teachableTracker.send', 'pageview');
+</script>
+
+<meta id='iris-url' data-iris-url=https://eventable.teachable.cloud />
+<link href="/blog/rss" rel="alternate" title="RSS Feed" type="application/rss+xml" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  </head>
+
+  <body data-no-turbolink="true" class="revamped_lecture_player">
+          <meta http-content='IE=Edge' http-equiv='X-UA-Compatible'>
+      <meta content='width=device-width,initial-scale=1.0,user-scalable=no' name='viewport'>
+<meta id="fedora-keys" data-commit-sha="b0bf0c53708b205ed3a46413517c13015b1fd28e" data-env="production" data-sentry-public-dsn="https://8149a85a83fa4ec69640c43ddd69017d@sentry.io/120346" data-stripe="pk_live_hkgvgSBxG4TAl3zGlXiB1KUX" data-track-all-ahoy="false" data-track-changes-ahoy="false" data-track-clicks-ahoy="false" data-track-sumbits-ahoy="false" data-filepicker="ADNupMnWyR7kCWRvm76Laz" data-iris-url="https://eventable.teachable.cloud" /><meta id="fedora-data" data-id="46406596" data-name="Zaheer ud Din Faiz" data-email="zaheerfazy@gmail.com" data-school-id="146684" data-joined-at="&quot;2020-09-13T05:46:27Z&quot;" data-wistia-identifier="146684:student:46406596" data-gravatar-url="https://s.gravatar.com/avatar/a38eaa32a77c9550f916e5b92d5ba281?d=mm" data-custom-role-course-permissions="false" data-report-card="{&quot;1359863&quot;:{&quot;id&quot;:266439593,&quot;course_id&quot;:1359863,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:70,&quot;enrolled_at&quot;:&quot;2021-03-29T14:11:22Z&quot;,&quot;updated_at&quot;:&quot;2021-08-29T14:34:58Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:63,&quot;completed_lecture_ids&quot;:[31446593,31446594,31446595,31446700,31446726,31446736,31447048,31447049,31447050,31447051,31447052,31447053,31447054,31447055,31447528,31447529,31447530,31447531,31447532,31447533,31447534,31447535,31447536,31447537,31447538,31447539,31447540,31447541,31447543,31447544,31447545,31448362,31448363,31448364,31448365,31448366,31448367,31448368,31448369,31448370,31448371,31448372,31448373,31448374,31448375,31448376,31448377,31448378,31448379,31448402,31448934,31448935,31448936,31448937,31448938,31448939,31448940,31448941,31448942,31448943,31448944,31448945,31456764],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:153},&quot;1269823&quot;:{&quot;id&quot;:242933358,&quot;course_id&quot;:1269823,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:13,&quot;enrolled_at&quot;:&quot;2021-01-13T23:25:35Z&quot;,&quot;updated_at&quot;:&quot;2021-08-21T12:46:24Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:10,&quot;completed_lecture_ids&quot;:[28672710,28672711,28672712,28672720,28672748,28672749,28672750,28672752,28672755,28672756],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:228},&quot;310571&quot;:{&quot;id&quot;:235124683,&quot;course_id&quot;:310571,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:28,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-08-19T15:52:30Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:18,&quot;completed_lecture_ids&quot;:[4880997,4880998,4880999,4881000,4881070,4881071,4881073,4881074,4881075,4881076,4881077,4881078,4881079,4881080,4881081,4881082,4881084,4881216],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;783424&quot;:{&quot;id&quot;:235124666,&quot;course_id&quot;:783424,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:66,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T15:18:41Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:75,&quot;completed_lecture_ids&quot;:[14779971,14779972,14779973,14779974,14779988,14780287,14780288,14780289,14780290,14780291,14780292,14780293,14780294,14780295,14780296,14780297,14780298,14780299,14780300,14780301,14780302,14780373,14780374,14780375,14780376,14780377,14780378,14780379,14780380,14780381,14780382,14780383,14780384,14780385,14780522,14780523,14780524,14780525,14780526,14780550,14780551,14780552,14780553,14780554,14780555,14780626,14780627,14780628,14780629,14780630,14780631,14780632,14780633,14780634,14780635,14780673,14780674,14780675,14780677,14780678,14780679,14780680,14780681,14780682,14780717,14780721,14812309,15899996,15902134,15902135,15902138,15902139,15902140,15902141,25353515],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;1467728&quot;:{&quot;id&quot;:602001360,&quot;course_id&quot;:1467728,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2021-08-05T16:43:35Z&quot;,&quot;updated_at&quot;:&quot;2021-08-05T16:43:35Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:24},&quot;887220&quot;:{&quot;id&quot;:235124665,&quot;course_id&quot;:887220,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:1,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-07-30T06:49:38Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:1,&quot;completed_lecture_ids&quot;:[16299620],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;324741&quot;:{&quot;id&quot;:235124696,&quot;course_id&quot;:324741,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:59,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-07-26T11:15:38Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:64,&quot;completed_lecture_ids&quot;:[5087881,5087882,5087883,5087884,5087894,5087895,5087908,5087909,5087910,5087911,5087912,5087913,5087933,5087937,5087939,5087942,5088018,5088019,5088020,5088021,5088023,5088024,5088025,5088068,5088069,5088074,5088075,5088076,5088077,5088078,5088079,5088080,5088081,5088104,5088105,5088106,5088107,5088108,5088109,5088110,5088113,5088115,5088119,5088121,5088122,5088123,5088124,5088125,5088126,5088148,5088156,5142747,5142751,5142753,5142758,5142767,5142768,5142773,5142774,5142776,5142777,5142778,5142779,5142780],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;1422300&quot;:{&quot;id&quot;:293759772,&quot;course_id&quot;:1422300,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2021-06-28T16:12:48Z&quot;,&quot;updated_at&quot;:&quot;2021-06-28T16:12:48Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:62},&quot;357787&quot;:{&quot;id&quot;:207608521,&quot;course_id&quot;:357787,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:34,&quot;enrolled_at&quot;:&quot;2020-09-13T05:46:28Z&quot;,&quot;updated_at&quot;:&quot;2021-05-18T07:31:12Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:74,&quot;completed_lecture_ids&quot;:[5634517,5634518,5634519,5634520,5634521,5634522,5634523,5634556,5634557,5634558,5634559,5634560,5634561,5634562,5634563,5634564,5634565,5634566,5634567,5634568,5634569,5634608,5634609,5634610,5634611,5634612,5634613,5634614,5634615,5634616,5634617,5634618,5634619,5634620,5634621,5634622,5634623,5634624,5634625,5634626,5634627,5634703,5634704,5634705,5634706,5634707,5634708,5634709,5634710,5634711,5634712,5634713,5634714,5634715,5634716,5634717,5634718,5634719,5634720,5634721,5634722,5634723,5634724,5634725,5706692,5706714,5876725,5876726,5876731,5876738,5876740,5876742,5876795,13898947],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:350},&quot;417695&quot;:{&quot;id&quot;:235124698,&quot;course_id&quot;:417695,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:84,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-03-29T12:06:35Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:155,&quot;completed_lecture_ids&quot;:[6781565,6781566,6781567,6781568,6781569,6781570,6781571,6781572,6781573,6781574,6781575,6781576,6781585,6781586,6781587,6781588,6781589,6781590,6781591,6781592,6781593,6781594,6781615,6781616,6781617,6781618,6781619,6781620,6781621,6781622,6781623,6781624,6781625,6781626,6781627,6781628,6781638,6781639,6781640,6781641,6781642,6781643,6781644,6781645,6781646,6781647,6781648,6781649,6781650,6781687,6781688,6781689,6781690,6781691,6781692,6781693,6781694,6781695,6781696,6781697,6781698,6781699,6781700,6781701,6781702,6781703,6781704,6781705,6781706,6781707,6781708,6781709,6880891,6880892,6880893,6880894,6880895,6880896,6880897,6880917,6880918,6880919,6880920,6880921,6880922,6880923,6880924,6880925,6880926,6880927,6880928,6880929,6880930,6880931,6880932,6880933,6880934,6880935,6880936,6880937,6880938,8417530,8417531,8417532,8417533,8417534,8417535,8417536,8417537,8417574,8417575,8417576,8417577,8417578,8417579,8417580,8417581,8417582,8417583,8417584,8417585,8417586,8417587,8417588,8417589,8417590,8417615,8417616,8417617,8417618,8417619,8417620,8417621,8417622,8417623,8417624,8481665,8481666,8481667,8481668,8481669,8481670,8481671,8481672,8481673,8481674,8481675,8481676,8778267,9219318,9219320,9219321,9219322,9219324,25351854],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;1120640&quot;:{&quot;id&quot;:235124663,&quot;course_id&quot;:1120640,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:21,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-03-26T05:58:36Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:24,&quot;completed_lecture_ids&quot;:[24393584,24393585,24393586,24393587,24393588,24393589,24393590,24393591,24393736,24393737,24393738,24393739,24393740,24393743,24393744,24393746,24393748,24393749,24393750,24393751,24393752,24393753,24393754,24394590],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;639884&quot;:{&quot;id&quot;:235124673,&quot;course_id&quot;:639884,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:12,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-03-24T12:53:12Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:12,&quot;completed_lecture_ids&quot;:[11425294,11425301,11425302,11425303,11425304,11425305,11425306,11425307,11425308,11425309,11425322,11425331],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;1260591&quot;:{&quot;id&quot;:242937380,&quot;course_id&quot;:1260591,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:100,&quot;enrolled_at&quot;:&quot;2021-01-13T23:26:29Z&quot;,&quot;updated_at&quot;:&quot;2021-02-21T14:44:59Z&quot;,&quot;completed_at&quot;:&quot;2021-02-21T14:44:59Z&quot;,&quot;certificate_page_id&quot;:7017896,&quot;certificate_serial_number&quot;:&quot;cert_462dwp5s&quot;,&quot;certificate_issued_at&quot;:&quot;2021-02-21T14:44:59Z&quot;,&quot;completed_lecture_count&quot;:45,&quot;completed_lecture_ids&quot;:[28672265,28672266,28672267,28672274,28672275,28672276,28672277,28672278,28672279,28672280,28672281,28672282,28672283,28672284,28672292,28672318,28672319,28672320,28672321,28672322,28672323,28672324,28672325,28672326,28672327,28672328,28672329,28672330,28672345,28672346,28672347,28672348,28672349,28672350,28672351,28672352,28672353,28672354,28672355,28672356,28672357,28672358,28672359,28672360,29711661],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:228},&quot;759570&quot;:{&quot;id&quot;:235124668,&quot;course_id&quot;:759570,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:9,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-02-16T18:33:38Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:6,&quot;completed_lecture_ids&quot;:[13732271,13732272,13732273,13732278,13732321,25354625],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;223623&quot;:{&quot;id&quot;:235124688,&quot;course_id&quot;:223623,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:10,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2021-01-27T11:20:01Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:8,&quot;completed_lecture_ids&quot;:[3480571,3480746,3480747,3480748,3480749,3480750,3480751,3517414],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;1269822&quot;:{&quot;id&quot;:242933146,&quot;course_id&quot;:1269822,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2021-01-13T23:25:33Z&quot;,&quot;updated_at&quot;:&quot;2021-01-13T23:25:33Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:228},&quot;225594&quot;:{&quot;id&quot;:235124691,&quot;course_id&quot;:225594,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:6,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-28T19:27:18Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:1,&quot;completed_lecture_ids&quot;:[3511054],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;423295&quot;:{&quot;id&quot;:235124697,&quot;course_id&quot;:423295,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;206545&quot;:{&quot;id&quot;:235124695,&quot;course_id&quot;:206545,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;223139&quot;:{&quot;id&quot;:235124694,&quot;course_id&quot;:223139,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;222856&quot;:{&quot;id&quot;:235124693,&quot;course_id&quot;:222856,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;235779&quot;:{&quot;id&quot;:235124692,&quot;course_id&quot;:235779,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;225147&quot;:{&quot;id&quot;:235124690,&quot;course_id&quot;:225147,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;224763&quot;:{&quot;id&quot;:235124689,&quot;course_id&quot;:224763,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;222293&quot;:{&quot;id&quot;:235124687,&quot;course_id&quot;:222293,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;222794&quot;:{&quot;id&quot;:235124686,&quot;course_id&quot;:222794,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;228831&quot;:{&quot;id&quot;:235124685,&quot;course_id&quot;:228831,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;236371&quot;:{&quot;id&quot;:235124684,&quot;course_id&quot;:236371,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;271672&quot;:{&quot;id&quot;:235124682,&quot;course_id&quot;:271672,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;293204&quot;:{&quot;id&quot;:235124679,&quot;course_id&quot;:293204,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;525068&quot;:{&quot;id&quot;:235124677,&quot;course_id&quot;:525068,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;580597&quot;:{&quot;id&quot;:235124676,&quot;course_id&quot;:580597,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;606251&quot;:{&quot;id&quot;:235124674,&quot;course_id&quot;:606251,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;650827&quot;:{&quot;id&quot;:235124672,&quot;course_id&quot;:650827,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;680168&quot;:{&quot;id&quot;:235124670,&quot;course_id&quot;:680168,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;711980&quot;:{&quot;id&quot;:235124669,&quot;course_id&quot;:711980,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;760032&quot;:{&quot;id&quot;:235124667,&quot;course_id&quot;:760032,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;955852&quot;:{&quot;id&quot;:235124664,&quot;course_id&quot;:955852,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:50Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;240431&quot;:{&quot;id&quot;:235124662,&quot;course_id&quot;:240431,&quot;is_active&quot;:true,&quot;has_full_access&quot;:false,&quot;percent_complete&quot;:0,&quot;enrolled_at&quot;:&quot;2020-12-22T08:24:49Z&quot;,&quot;updated_at&quot;:&quot;2020-12-22T08:24:49Z&quot;,&quot;completed_at&quot;:null,&quot;certificate_page_id&quot;:null,&quot;certificate_serial_number&quot;:null,&quot;certificate_issued_at&quot;:null,&quot;completed_lecture_count&quot;:0,&quot;completed_lecture_ids&quot;:[],&quot;access_limited_at&quot;:null,&quot;days_enrolled&quot;:250},&quot;meta&quot;:{&quot;cached_at&quot;:&quot;2021-08-29T14:34:59Z&quot;}}" data-course-ids="[1359863,1269823,310571,783424,1467728,887220,324741,1422300,357787,417695,1120640,639884,1260591,759570,223623,1269822,225594,423295,206545,223139,222856,235779,225147,224763,222293,222794,228831,236371,271672,293204,525068,580597,606251,650827,680168,711980,760032,955852,240431]" data-role="student" data-completed-lecture-ids="[31446593,31446594,31446595,31446700,31446726,31446736,31447048,31447049,31447050,31447051,31447052,31447053,31447054,31447055,31447528,31447529,31447530,31447531,31447532,31447533,31447534,31447535,31447536,31447537,31447538,31447539,31447540,31447541,31447543,31447544,31447545,31448362,31448363,31448364,31448365,31448366,31448367,31448368,31448369,31448370,31448371,31448372,31448373,31448374,31448375,31448376,31448377,31448378,31448379,31448402,31448934,31448935,31448936,31448937,31448938,31448939,31448940,31448941,31448942,31448943,31448944,31448945,31456764,28672710,28672711,28672712,28672720,28672748,28672749,28672750,28672752,28672755,28672756,4880997,4880998,4880999,4881000,4881070,4881071,4881073,4881074,4881075,4881076,4881077,4881078,4881079,4881080,4881081,4881082,4881084,4881216,14779971,14779972,14779973,14779974,14779988,14780287,14780288,14780289,14780290,14780291,14780292,14780293,14780294,14780295,14780296,14780297,14780298,14780299,14780300,14780301,14780302,14780373,14780374,14780375,14780376,14780377,14780378,14780379,14780380,14780381,14780382,14780383,14780384,14780385,14780522,14780523,14780524,14780525,14780526,14780550,14780551,14780552,14780553,14780554,14780555,14780626,14780627,14780628,14780629,14780630,14780631,14780632,14780633,14780634,14780635,14780673,14780674,14780675,14780677,14780678,14780679,14780680,14780681,14780682,14780717,14780721,14812309,15899996,15902134,15902135,15902138,15902139,15902140,15902141,25353515,16299620,5087881,5087882,5087883,5087884,5087894,5087895,5087908,5087909,5087910,5087911,5087912,5087913,5087933,5087937,5087939,5087942,5088018,5088019,5088020,5088021,5088023,5088024,5088025,5088068,5088069,5088074,5088075,5088076,5088077,5088078,5088079,5088080,5088081,5088104,5088105,5088106,5088107,5088108,5088109,5088110,5088113,5088115,5088119,5088121,5088122,5088123,5088124,5088125,5088126,5088148,5088156,5142747,5142751,5142753,5142758,5142767,5142768,5142773,5142774,5142776,5142777,5142778,5142779,5142780,5634517,5634518,5634519,5634520,5634521,5634522,5634523,5634556,5634557,5634558,5634559,5634560,5634561,5634562,5634563,5634564,5634565,5634566,5634567,5634568,5634569,5634608,5634609,5634610,5634611,5634612,5634613,5634614,5634615,5634616,5634617,5634618,5634619,5634620,5634621,5634622,5634623,5634624,5634625,5634626,5634627,5634703,5634704,5634705,5634706,5634707,5634708,5634709,5634710,5634711,5634712,5634713,5634714,5634715,5634716,5634717,5634718,5634719,5634720,5634721,5634722,5634723,5634724,5634725,5706692,5706714,5876725,5876726,5876731,5876738,5876740,5876742,5876795,13898947,6781565,6781566,6781567,6781568,6781569,6781570,6781571,6781572,6781573,6781574,6781575,6781576,6781585,6781586,6781587,6781588,6781589,6781590,6781591,6781592,6781593,6781594,6781615,6781616,6781617,6781618,6781619,6781620,6781621,6781622,6781623,6781624,6781625,6781626,6781627,6781628,6781638,6781639,6781640,6781641,6781642,6781643,6781644,6781645,6781646,6781647,6781648,6781649,6781650,6781687,6781688,6781689,6781690,6781691,6781692,6781693,6781694,6781695,6781696,6781697,6781698,6781699,6781700,6781701,6781702,6781703,6781704,6781705,6781706,6781707,6781708,6781709,6880891,6880892,6880893,6880894,6880895,6880896,6880897,6880917,6880918,6880919,6880920,6880921,6880922,6880923,6880924,6880925,6880926,6880927,6880928,6880929,6880930,6880931,6880932,6880933,6880934,6880935,6880936,6880937,6880938,8417530,8417531,8417532,8417533,8417534,8417535,8417536,8417537,8417574,8417575,8417576,8417577,8417578,8417579,8417580,8417581,8417582,8417583,8417584,8417585,8417586,8417587,8417588,8417589,8417590,8417615,8417616,8417617,8417618,8417619,8417620,8417621,8417622,8417623,8417624,8481665,8481666,8481667,8481668,8481669,8481670,8481671,8481672,8481673,8481674,8481675,8481676,8778267,9219318,9219320,9219321,9219322,9219324,25351854,24393584,24393585,24393586,24393587,24393588,24393589,24393590,24393591,24393736,24393737,24393738,24393739,24393740,24393743,24393744,24393746,24393748,24393749,24393750,24393751,24393752,24393753,24393754,24394590,11425294,11425301,11425302,11425303,11425304,11425305,11425306,11425307,11425308,11425309,11425322,11425331,28672265,28672266,28672267,28672274,28672275,28672276,28672277,28672278,28672279,28672280,28672281,28672282,28672283,28672284,28672292,28672318,28672319,28672320,28672321,28672322,28672323,28672324,28672325,28672326,28672327,28672328,28672329,28672330,28672345,28672346,28672347,28672348,28672349,28672350,28672351,28672352,28672353,28672354,28672355,28672356,28672357,28672358,28672359,28672360,29711661,13732271,13732272,13732273,13732278,13732321,25354625,3480571,3480746,3480747,3480748,3480749,3480750,3480751,3517414,3511054,null]" data-school-id="146684" data-school-launched="true" data-preview="logged_in" data-turn-off-fedora-branding="true" data-plan-supports-whitelabeling="true" data-powered-by-text="Powered by" data-asset-path="//https://fedora.teachablecdn.com/assets/footer/teachable-logomark-white-31d2296978598bacace50e6d48a2e1223c20a9b074af424acdd465676f81560f.svg" data-school-preferences="{&quot;ssl_forced&quot;:&quot;true&quot;,&quot;bazaar_enabled&quot;:&quot;false&quot;,&quot;paypal_enabled&quot;:&quot;true&quot;,&quot;autoplay_lectures&quot;:&quot;true&quot;,&quot;comments_threaded&quot;:&quot;true&quot;,&quot;themeable_enabled&quot;:&quot;false&quot;,&quot;course_blocks_beta&quot;:&quot;true&quot;,&quot;eu_vat_tax_enabled&quot;:&quot;false&quot;,&quot;legacy_back_office&quot;:&quot;true&quot;,&quot;themeable_disabled&quot;:&quot;false&quot;,&quot;comments_moderation&quot;:&quot;false&quot;,&quot;eu_vat_tax_eligible&quot;:&quot;true&quot;,&quot;charge_exclusive_tax&quot;:&quot;true&quot;,&quot;drip_content_enabled&quot;:&quot;false&quot;,&quot;send_receipts_emails&quot;:&quot;true&quot;,&quot;autocomplete_lectures&quot;:&quot;true&quot;,&quot;class_periods_enabled&quot;:&quot;false&quot;,&quot;authors_can_manage_pbc&quot;:&quot;true&quot;,&quot;css_properties_enabled&quot;:&quot;false&quot;,&quot;preenrollments_enabled&quot;:&quot;false&quot;,&quot;native_comments_enabled&quot;:&quot;true&quot;,&quot;new_text_editor_enabled&quot;:&quot;true&quot;,&quot;require_terms_agreement&quot;:&quot;true&quot;,&quot;send_new_comment_emails&quot;:&quot;true&quot;,&quot;send_drip_content_emails&quot;:&quot;true&quot;,&quot;ssl_forced_from_creation&quot;:&quot;false&quot;,&quot;turn_off_fedora_branding&quot;:&quot;true&quot;,&quot;allow_comment_attachments&quot;:&quot;true&quot;,&quot;authors_can_email_students&quot;:&quot;false&quot;,&quot;authors_can_manage_coupons&quot;:&quot;false&quot;,&quot;teachable_accounts_enabled&quot;:&quot;true&quot;,&quot;teachable_payments_enabled&quot;:&quot;true&quot;,&quot;authors_can_import_students&quot;:&quot;false&quot;,&quot;authors_can_publish_courses&quot;:&quot;false&quot;,&quot;internal_subscriptions_beta&quot;:&quot;true&quot;,&quot;recaptcha_enabled_on_signup&quot;:&quot;true&quot;,&quot;tax_form_collection_enabled&quot;:&quot;false&quot;,&quot;display_vat_inclusive_prices&quot;:&quot;true&quot;,&quot;single_page_checkout_enabled&quot;:&quot;true&quot;,&quot;authors_can_set_course_prices&quot;:&quot;false&quot;,&quot;send_lead_confirmation_emails&quot;:&quot;true&quot;,&quot;affiliate_cookie_duration_days&quot;:&quot;365&quot;,&quot;authors_can_issue_certificates&quot;:&quot;false&quot;,&quot;store_student_cards_separately&quot;:&quot;true&quot;,&quot;affiliate_external_urls_enabled&quot;:&quot;true&quot;,&quot;authors_can_manage_certificates&quot;:&quot;false&quot;,&quot;authors_can_manage_course_pages&quot;:&quot;false&quot;,&quot;disable_js_course_event_tracking&quot;:&quot;false&quot;,&quot;exclusive_vat_on_custom_gateways&quot;:&quot;true&quot;,&quot;is_edit_site_onboarding_complete&quot;:&quot;false&quot;,&quot;send_certificate_issuance_emails&quot;:&quot;true&quot;,&quot;owner_teachable_accounts_required&quot;:&quot;true&quot;,&quot;prevent_payment_plan_cancellation&quot;:&quot;true&quot;,&quot;send_subscription_reminder_emails&quot;:&quot;true&quot;,&quot;automatically_add_disqus_attachments&quot;:&quot;true&quot;,&quot;recalc_course_pct_on_lecture_publish&quot;:&quot;false&quot;,&quot;send_confirmation_instructions_emails&quot;:&quot;true&quot;,&quot;send_limited_time_unenrollment_emails&quot;:&quot;true&quot;,&quot;turn_off_myteachable_sign_up_branding&quot;:&quot;false&quot;}" data-accessible-features="[&quot;bulk_importing_users&quot;,&quot;bulk_enroll_students&quot;,&quot;manually_importing_users&quot;,&quot;native_certificates&quot;,&quot;custom_roles&quot;,&quot;earnings_statements&quot;,&quot;teachable_payments&quot;,&quot;teachable_u&quot;,&quot;course_compliance&quot;,&quot;page_editor_v2&quot;,&quot;certificates_editor_v2&quot;,&quot;drip_content&quot;,&quot;custom_domain&quot;,&quot;coupons&quot;,&quot;graded_quizzes&quot;,&quot;power_editor&quot;,&quot;email&quot;,&quot;course_reports&quot;,&quot;webhooks&quot;,&quot;integrations&quot;,&quot;zapier_action_create_user&quot;,&quot;teachable_payments_payout_view&quot;,&quot;pbc&quot;,&quot;bundles&quot;,&quot;upsells&quot;,&quot;facebook_pixel&quot;,&quot;user_search_filters&quot;,&quot;multiple_course_pages&quot;,&quot;proration_upgrade_flow&quot;,&quot;cross_border_payments&quot;,&quot;limited_time_enrollments&quot;,&quot;sales_tax_on_student_checkout&quot;,&quot;new_device_confirmation&quot;,&quot;elasticsearch_users&quot;,&quot;elasticsearch_transactions&quot;,&quot;reset_progress&quot;,&quot;fraud_warnings&quot;,&quot;paypal_through_tp&quot;,&quot;new_creator_checkout&quot;,&quot;circle_oauth&quot;]" data-course-data="{&quot;is_lecture_order_enforced&quot;:null,&quot;is_minimum_quiz_score_enforced&quot;:null,&quot;is_video_completion_enforced&quot;:null,&quot;minimum_quiz_score&quot;:null,&quot;maximum_quiz_retakes&quot;:null}" data-course-url="https://codewithmosh.com/courses/1359863" data-course-id="1359863" data-lecture-id="31450209" data-lecture-url="https://codewithmosh.com/courses/1359863/lectures/31450209" data-quiz-strings="{&quot;check&quot;:&quot;Check&quot;,&quot;error&quot;:&quot;Select an answer.&quot;,&quot;label&quot;:&quot;Quiz&quot;,&quot;next&quot;:&quot;Continue&quot;,&quot;previous&quot;:&quot;Back&quot;,&quot;scored&quot;:&quot;You scored&quot;,&quot;retake&quot;:&quot;Retake Quiz&quot;,&quot;retry&quot;:&quot;You need a score of at least %{minimumQuizScore}% to continue - you may retake this quiz %{retakes} more time(s).&quot;,&quot;request&quot;:&quot;You need a score of at least %{minimumQuizScore}% to continue - a request has been sent to the school owner to reset your score. You will be notified if the school owner allows you to retake this quiz.&quot;}" /><meta id="analytics-keys" name="analytics" data-analytics="{&quot;Google Analytics&quot;:{&quot;trackingId&quot;:&quot;UA-66465936-2&quot;,&quot;enhancedEcommerce&quot;:true,&quot;sendUserId&quot;:true,&quot;anonymizeIp&quot;:true}}" />
+    
+    <!-- Lecture Header -->
+<header class='full-width half-height is-signed-in'>
+  <div class='lecture-left'>
+    <a class='nav-icon-back' aria-label='Back to course curriculum' data-no-turbolink="true" role='button' href='/courses/1359863'>
+      <svg width="24" height="24" title="Back to course curriculum">
+        <use xlink:href="#icon__Home"></use>
+      </svg>
+    </a>
+    <div class="dropdown settings-dropdown" role='menubar'>
+      <a href='#' class='nav-icon-settings dropdown-toggle' aria-label='Settings Menu' aria-haspopup='true' role='menuitem' id='settings_menu' data-toggle='dropdown'>
+        <svg width="24" height="24" title="Settings Menu">
+          <use xlink:href="#icon__Settings"></use>
+        </svg>
+      </a>
+      <ul class="dropdown-menu left-caret" role="menu" aria-labelledby="settings_menu">
+  <!-- AUTOPLAY -->
+  <li aria-label="menuitem">
+    <div class="switch" id="switch-autoplay-lectures">
+      <input id="custom-toggle-autoplay" class="custom-toggle custom-toggle-round" name="toggle-autoplay" type="checkbox" aria-label="Autoplay">
+      <label for="custom-toggle-autoplay"></label>
+    </div>
+    <span aria-labelledby="switch-autoplay-lectures">Autoplay</span>
+  </li>
+  <!-- AUTOCOMPLETE -->
+  <li aria-label="menuitem">
+    <div class="switch" id="switch-autocomplete-lectures">
+      <input id="custom-toggle-autocomplete" class="custom-toggle custom-toggle-round" name="toggle-autocomplete" type="checkbox" aria-label="Autocomplete">
+      <label for="custom-toggle-autocomplete"></label>
+    </div>
+    <span aria-labelledby="switch-autocomplete-lectures">Autocomplete</span>
+  </li>
+  <!-- PLAYBACK SPEED -->
+  <li aria-label="menuitem">
+    <div class="pull-right">
+      <button class="playback-speed" role="button">
+      </button>
+    </div>
+    Speed
+  </li>
+  <!-- QUALITY: not working yet -->
+  <!--  <li>
+    <div class="pull-right">
+      <div class="switch-toggle switch-3 well">
+        <input id="auto" name="quality" type="radio" checked>
+        <label for="auto" onclick="">Auto</label>
+        <input id="hd" name="quality" type="radio">
+        <label for="hd" onclick="">HD</label>
+        <input id="sd" name="quality" type="radio">
+        <label for="sd" onclick="">SD</label>
+        <a class="btn btn-primary"></a>
+      </div>
+    </div>
+    Quality
+  </li> -->
+</ul>
+
+    </div>
+    <a class="nav-icon-list show-xs hidden-sm hidden-md hidden-lg collapsed" aria-label='Course Sidebar' role="button" data-toggle="collapse" href="#courseSidebar" aria-expanded="false" aria-controls="courseSidebar">
+        <svg width="24" height="24" title="Course Sidebar">
+          <use xlink:href="#icon__FormatListBulleted"></use>
+        </svg>
+      </a>
+  </div>
+  
+  <div class='lecture-nav'>
+    <a class='nav-btn' href='' role='button' id='lecture_previous_button'>
+        <svg width="24" height="24" aria-hidden='true'>
+          <use xlink:href="#icon__ArrowBack"></use>
+         </svg>
+      &nbsp;
+      <span class='nav-text'>Previous Lecture</span>
+    </a>
+    <a
+      class='nav-btn complete'
+      data-cpl-tooltip='You must complete all lecture material before progressing.'
+      data-vpl-tooltip='90% of each video must be completed. You have completed %{progress_completed} of the current video.'
+      href=''
+      id='lecture_complete_button'
+      role='button'
+    >
+      <span class='nav-text'>Complete and Continue</span>
+      &nbsp;
+      <svg width="24" height="24" aria-hidden='true'>
+          <use xlink:href="#icon__ArrowForward"></use>
+        </svg>
+    </a>
+  </div>
+  
+</header>
+
+    <section class="lecture-page-layout">
+      <div role="navigation" class='course-sidebar lecture-page navbar-collapse navbar-sidebar-collapse' id='courseSidebar'>
+  <div class='course-sidebar-head'>
+    <h2>The Ultimate Docker Course</h2>
+    <!-- Course Progress -->
+    
+    <div class='course-progress lecture-page is-at-top'>
+      <div class='progressbar'>
+        <div class='progressbar-fill' style='min-width: 70%;'></div>
+      </div>
+      <div class='small course-progress-percentage'>
+        <span class='percentage'>
+          70%
+        </span>
+        COMPLETE
+      </div>
+    </div>
+    
+  </div>
+  <!-- Lecture list on courses page (enrolled user) -->
+
+  <div class='row lecture-sidebar'>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1359863">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Getting Started (3m)
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31446593" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31446593' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31446593'
+            data-ss-event-type='link' data-ss-lecture-id='31446593'
+            data-ss-position='1' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31446593' id='sidebar_link_31446593'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                1- Introduction
+                
+                (0:53)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31446594" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31446594' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31446594'
+            data-ss-event-type='link' data-ss-lecture-id='31446594'
+            data-ss-position='1' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31446594' id='sidebar_link_31446594'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                2- Prerequisites
+                
+                (0:43)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31446595" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31446595' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31446595'
+            data-ss-event-type='link' data-ss-lecture-id='31446595'
+            data-ss-position='1' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31446595' id='sidebar_link_31446595'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                3- How to Take this Course
+                
+                (0:46)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31446700" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31446700' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31446700'
+            data-ss-event-type='link' data-ss-lecture-id='31446700'
+            data-ss-position='1' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31446700' id='sidebar_link_31446700'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                4- Supplementary Files
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31446726" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31446726' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31446726'
+            data-ss-event-type='link' data-ss-lecture-id='31446726'
+            data-ss-position='1' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31446726' id='sidebar_link_31446726'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                5- Getting Help
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31446736" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31446736' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31446736'
+            data-ss-event-type='link' data-ss-lecture-id='31446736'
+            data-ss-position='1' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31446736' id='sidebar_link_31446736'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                6- Follow Me Around
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1359863">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Introduction to Docker (25m)
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31447055" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447055' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447055'
+            data-ss-event-type='link' data-ss-lecture-id='31447055'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447055' id='sidebar_link_31447055'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                1- Introduction
+                
+                (0:44)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447053" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447053' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447053'
+            data-ss-event-type='link' data-ss-lecture-id='31447053'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447053' id='sidebar_link_31447053'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                2- What is Docker
+                
+                (3:15)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447052" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447052' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447052'
+            data-ss-event-type='link' data-ss-lecture-id='31447052'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447052' id='sidebar_link_31447052'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                3- Virtual Machines vs Containers
+                
+                (3:14)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447048" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447048' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447048'
+            data-ss-event-type='link' data-ss-lecture-id='31447048'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447048' id='sidebar_link_31447048'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                4- Docker Architecture
+                
+                (2:14)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447049" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447049' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447049'
+            data-ss-event-type='link' data-ss-lecture-id='31447049'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447049' id='sidebar_link_31447049'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                5- Installing Docker
+                
+                (3:35)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447054" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447054' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447054'
+            data-ss-event-type='link' data-ss-lecture-id='31447054'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447054' id='sidebar_link_31447054'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                6- Development Workflow
+                
+                (2:16)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447051" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447051' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447051'
+            data-ss-event-type='link' data-ss-lecture-id='31447051'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447051' id='sidebar_link_31447051'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                7- Docker in Action
+                
+                (9:32)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447050" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447050' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447050'
+            data-ss-event-type='link' data-ss-lecture-id='31447050'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447050' id='sidebar_link_31447050'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                8- Summary
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31456764" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31456764' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31456764'
+            data-ss-event-type='link' data-ss-lecture-id='31456764'
+            data-ss-position='2' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31456764' id='sidebar_link_31456764'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                9- A Note for Windows Users
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1359863">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        The Linux Command Line (65m)
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31447534" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447534' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447534'
+            data-ss-event-type='link' data-ss-lecture-id='31447534'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447534' id='sidebar_link_31447534'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                1- Introduction
+                
+                (0:51)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447532" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447532' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447532'
+            data-ss-event-type='link' data-ss-lecture-id='31447532'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447532' id='sidebar_link_31447532'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                2- Linux Distributions
+                
+                (1:02)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447539" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447539' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447539'
+            data-ss-event-type='link' data-ss-lecture-id='31447539'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447539' id='sidebar_link_31447539'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                3- Running Linux
+                
+                (5:11)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447536" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447536' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447536'
+            data-ss-event-type='link' data-ss-lecture-id='31447536'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447536' id='sidebar_link_31447536'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                4- Managing Packages
+                
+                (3:34)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447541" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447541' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447541'
+            data-ss-event-type='link' data-ss-lecture-id='31447541'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447541' id='sidebar_link_31447541'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                5- Linux File System
+                
+                (1:58)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447543" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447543' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447543'
+            data-ss-event-type='link' data-ss-lecture-id='31447543'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447543' id='sidebar_link_31447543'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                6- Navigating the File System
+                
+                (4:19)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447528" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447528' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447528'
+            data-ss-event-type='link' data-ss-lecture-id='31447528'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447528' id='sidebar_link_31447528'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                7- Manipulating Files and Directories
+                
+                (3:26)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447531" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447531' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447531'
+            data-ss-event-type='link' data-ss-lecture-id='31447531'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447531' id='sidebar_link_31447531'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                8- Editing and Viewing Files
+                
+                (3:54)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447538" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447538' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447538'
+            data-ss-event-type='link' data-ss-lecture-id='31447538'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447538' id='sidebar_link_31447538'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                9- Redirection
+                
+                (3:04)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447537" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447537' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447537'
+            data-ss-event-type='link' data-ss-lecture-id='31447537'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447537' id='sidebar_link_31447537'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                10- Searching for Text
+                
+                (2:18)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447529" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447529' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447529'
+            data-ss-event-type='link' data-ss-lecture-id='31447529'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447529' id='sidebar_link_31447529'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                11- Finding Files and Directories
+                
+                (3:23)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447540" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447540' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447540'
+            data-ss-event-type='link' data-ss-lecture-id='31447540'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447540' id='sidebar_link_31447540'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                12- Chaining Commands
+                
+                (5:05)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447544" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447544' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447544'
+            data-ss-event-type='link' data-ss-lecture-id='31447544'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447544' id='sidebar_link_31447544'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                13- Environment Variables
+                
+                (7:34)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447545" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447545' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447545'
+            data-ss-event-type='link' data-ss-lecture-id='31447545'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447545' id='sidebar_link_31447545'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                14- Managing Processes
+                
+                (2:55)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447530" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447530' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447530'
+            data-ss-event-type='link' data-ss-lecture-id='31447530'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447530' id='sidebar_link_31447530'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                15- Managing Users
+                
+                (7:01)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447533" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447533' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447533'
+            data-ss-event-type='link' data-ss-lecture-id='31447533'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447533' id='sidebar_link_31447533'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                16- Managing Groups
+                
+                (3:17)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447535" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447535' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447535'
+            data-ss-event-type='link' data-ss-lecture-id='31447535'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447535' id='sidebar_link_31447535'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                17- File Permissions
+                
+                (5:23)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31447542" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31447542' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31447542'
+            data-ss-event-type='link' data-ss-lecture-id='31447542'
+            data-ss-position='3' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31447542' id='sidebar_link_31447542'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                18- Summary
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1359863">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Building Images (65m)
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31448364" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448364' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448364'
+            data-ss-event-type='link' data-ss-lecture-id='31448364'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448364' id='sidebar_link_31448364'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                1- Introduction
+                
+                (0:34)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448377" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448377' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448377'
+            data-ss-event-type='link' data-ss-lecture-id='31448377'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448377' id='sidebar_link_31448377'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                2- Images and Containers
+                
+                (2:41)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448363" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448363' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448363'
+            data-ss-event-type='link' data-ss-lecture-id='31448363'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448363' id='sidebar_link_31448363'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                3- Sample Web Application
+                
+                (3:06)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448366" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448366' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448366'
+            data-ss-event-type='link' data-ss-lecture-id='31448366'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448366' id='sidebar_link_31448366'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                4- Dockerfile Instructions
+                
+                (1:20)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448379" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448379' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448379'
+            data-ss-event-type='link' data-ss-lecture-id='31448379'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448379' id='sidebar_link_31448379'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                5- Choosing the Right Base Image
+                
+                (7:29)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448373" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448373' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448373'
+            data-ss-event-type='link' data-ss-lecture-id='31448373'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448373' id='sidebar_link_31448373'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                6- Copying Files and Directories
+                
+                (5:32)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448372" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448372' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448372'
+            data-ss-event-type='link' data-ss-lecture-id='31448372'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448372' id='sidebar_link_31448372'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                7- Excluding Files and Directories
+                
+                (3:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448362" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448362' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448362'
+            data-ss-event-type='link' data-ss-lecture-id='31448362'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448362' id='sidebar_link_31448362'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                8- Running Commands
+                
+                (1:26)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448376" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448376' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448376'
+            data-ss-event-type='link' data-ss-lecture-id='31448376'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448376' id='sidebar_link_31448376'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                9- Setting Environment Variables
+                
+                (1:25)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448371" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448371' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448371'
+            data-ss-event-type='link' data-ss-lecture-id='31448371'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448371' id='sidebar_link_31448371'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                10- Exposing Ports
+                
+                (1:27)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448367" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448367' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448367'
+            data-ss-event-type='link' data-ss-lecture-id='31448367'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448367' id='sidebar_link_31448367'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                11- Setting the User
+                
+                (4:49)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448370" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448370' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448370'
+            data-ss-event-type='link' data-ss-lecture-id='31448370'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448370' id='sidebar_link_31448370'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                12- Defining Entrypoints
+                
+                (6:06)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448375" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448375' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448375'
+            data-ss-event-type='link' data-ss-lecture-id='31448375'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448375' id='sidebar_link_31448375'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                13- Speeding Up Builds
+                
+                (6:38)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448368" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448368' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448368'
+            data-ss-event-type='link' data-ss-lecture-id='31448368'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448368' id='sidebar_link_31448368'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                14- Removing Images
+                
+                (2:46)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448369" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448369' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448369'
+            data-ss-event-type='link' data-ss-lecture-id='31448369'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448369' id='sidebar_link_31448369'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                15- Tagging Images
+                
+                (5:32)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448365" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448365' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448365'
+            data-ss-event-type='link' data-ss-lecture-id='31448365'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448365' id='sidebar_link_31448365'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                16- Sharing Images
+                
+                (4:19)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448374" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448374' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448374'
+            data-ss-event-type='link' data-ss-lecture-id='31448374'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448374' id='sidebar_link_31448374'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                17- Saving and Loading Images
+                
+                (3:28)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448378" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448378' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448378'
+            data-ss-event-type='link' data-ss-lecture-id='31448378'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448378' id='sidebar_link_31448378'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                18- Summary
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448402" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448402' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448402'
+            data-ss-event-type='link' data-ss-lecture-id='31448402'
+            data-ss-position='4' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448402' id='sidebar_link_31448402'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                19- Cleaning Up
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1359863">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Working with Containers (30m)
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31448943" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448943' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448943'
+            data-ss-event-type='link' data-ss-lecture-id='31448943'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448943' id='sidebar_link_31448943'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                1- Introduction
+                
+                (0:35)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448934" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448934' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448934'
+            data-ss-event-type='link' data-ss-lecture-id='31448934'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448934' id='sidebar_link_31448934'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                2- Starting Containers
+                
+                (3:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448940" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448940' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448940'
+            data-ss-event-type='link' data-ss-lecture-id='31448940'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448940' id='sidebar_link_31448940'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                3- Viewing the Logs
+                
+                (2:06)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448939" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448939' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448939'
+            data-ss-event-type='link' data-ss-lecture-id='31448939'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448939' id='sidebar_link_31448939'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                4- Publishing Ports
+                
+                (2:06)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448941" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448941' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448941'
+            data-ss-event-type='link' data-ss-lecture-id='31448941'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448941' id='sidebar_link_31448941'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                5- Executing Commands in Running Containers
+                
+                (1:58)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448936" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448936' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448936'
+            data-ss-event-type='link' data-ss-lecture-id='31448936'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448936' id='sidebar_link_31448936'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                6- Stopping and Starting Containers
+                
+                (0:57)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448942" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448942' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448942'
+            data-ss-event-type='link' data-ss-lecture-id='31448942'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448942' id='sidebar_link_31448942'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                7- Removing Containers
+                
+                (1:47)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448935" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448935' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448935'
+            data-ss-event-type='link' data-ss-lecture-id='31448935'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448935' id='sidebar_link_31448935'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                8- Containers File System
+                
+                (1:33)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448945" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448945' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448945'
+            data-ss-event-type='link' data-ss-lecture-id='31448945'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448945' id='sidebar_link_31448945'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                9- Persisting Data using Volumes
+                
+                (5:55)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448938" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448938' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448938'
+            data-ss-event-type='link' data-ss-lecture-id='31448938'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448938' id='sidebar_link_31448938'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                10- Copying Files between the Host and Containers
+                
+                (2:20)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448944" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448944' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448944'
+            data-ss-event-type='link' data-ss-lecture-id='31448944'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448944' id='sidebar_link_31448944'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                11- Sharing the Source Code with a Container
+                
+                (4:18)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31448937" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31448937' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31448937'
+            data-ss-event-type='link' data-ss-lecture-id='31448937'
+            data-ss-position='5' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31448937' id='sidebar_link_31448937'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                12- Summary
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1359863">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Running Multi-container Applications (50m)
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31450209" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450209' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450209'
+            data-ss-event-type='link' data-ss-lecture-id='31450209'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450209' id='sidebar_link_31450209'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                1- Introduction
+                
+                (0:47)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450215" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450215' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450215'
+            data-ss-event-type='link' data-ss-lecture-id='31450215'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450215' id='sidebar_link_31450215'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                2- Installing Docker Compose
+                
+                (1:12)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450217" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450217' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450217'
+            data-ss-event-type='link' data-ss-lecture-id='31450217'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450217' id='sidebar_link_31450217'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                3- Cleaning Up our Workspace
+                
+                (3:07)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450216" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450216' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450216'
+            data-ss-event-type='link' data-ss-lecture-id='31450216'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450216' id='sidebar_link_31450216'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                4- The Sample Web Application
+                
+                (3:10)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450219" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450219' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450219'
+            data-ss-event-type='link' data-ss-lecture-id='31450219'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450219' id='sidebar_link_31450219'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                5- JSON and YAML Formats
+                
+                (4:12)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450208" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450208' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450208'
+            data-ss-event-type='link' data-ss-lecture-id='31450208'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450208' id='sidebar_link_31450208'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                6- Creating a Compose File
+                
+                (8:57)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450207" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450207' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450207'
+            data-ss-event-type='link' data-ss-lecture-id='31450207'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450207' id='sidebar_link_31450207'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                7- Building Images
+                
+                (3:37)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450212" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450212' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450212'
+            data-ss-event-type='link' data-ss-lecture-id='31450212'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450212' id='sidebar_link_31450212'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                8- Starting and Stopping the Application
+                
+                (2:10)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450213" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450213' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450213'
+            data-ss-event-type='link' data-ss-lecture-id='31450213'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450213' id='sidebar_link_31450213'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                9- Docker Networking
+                
+                (4:45)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450214" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450214' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450214'
+            data-ss-event-type='link' data-ss-lecture-id='31450214'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450214' id='sidebar_link_31450214'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                10- Viewing Logs
+                
+                (1:28)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450211" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450211' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450211'
+            data-ss-event-type='link' data-ss-lecture-id='31450211'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450211' id='sidebar_link_31450211'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                11- Publishing Changes
+                
+                (4:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450206" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450206' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450206'
+            data-ss-event-type='link' data-ss-lecture-id='31450206'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450206' id='sidebar_link_31450206'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                12- Migrating the Database
+                
+                (7:20)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450210" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450210' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450210'
+            data-ss-event-type='link' data-ss-lecture-id='31450210'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450210' id='sidebar_link_31450210'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                13- Running Tests
+                
+                (2:47)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31450218" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31450218' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31450218'
+            data-ss-event-type='link' data-ss-lecture-id='31450218'
+            data-ss-position='6' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31450218' id='sidebar_link_31450218'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                14- Summary
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="1359863">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Deploying Applications (30m)
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="31455554" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455554' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455554'
+            data-ss-event-type='link' data-ss-lecture-id='31455554'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455554' id='sidebar_link_31455554'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                1- Introduction
+                
+                (0:45)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455561" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455561' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455561'
+            data-ss-event-type='link' data-ss-lecture-id='31455561'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455561' id='sidebar_link_31455561'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                2- Deployment Options
+                
+                (1:33)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455558" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455558' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455558'
+            data-ss-event-type='link' data-ss-lecture-id='31455558'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455558' id='sidebar_link_31455558'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                3- Getting a Virtual Private Server
+                
+                (1:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455555" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455555' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455555'
+            data-ss-event-type='link' data-ss-lecture-id='31455555'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455555' id='sidebar_link_31455555'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                4- Installing Docker Machine
+                
+                (1:01)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455564" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455564' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455564'
+            data-ss-event-type='link' data-ss-lecture-id='31455564'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455564' id='sidebar_link_31455564'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                5- Provisioning a Host
+                
+                (4:33)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455557" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455557' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455557'
+            data-ss-event-type='link' data-ss-lecture-id='31455557'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455557' id='sidebar_link_31455557'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                6- Connecting to the Host
+                
+                (2:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455560" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455560' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455560'
+            data-ss-event-type='link' data-ss-lecture-id='31455560'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455560' id='sidebar_link_31455560'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                7- Defining the Production Configuration
+                
+                (3:04)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455562" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455562' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455562'
+            data-ss-event-type='link' data-ss-lecture-id='31455562'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455562' id='sidebar_link_31455562'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                8- Reducing the Image Size
+                
+                (8:15)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455563" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455563' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455563'
+            data-ss-event-type='link' data-ss-lecture-id='31455563'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455563' id='sidebar_link_31455563'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                9- Deploying the Application
+                
+                (4:31)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455556" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455556' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455556'
+            data-ss-event-type='link' data-ss-lecture-id='31455556'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455556' id='sidebar_link_31455556'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                10- Troubleshooting Deployment Issues
+                
+                (7:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31455559" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31455559' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31455559'
+            data-ss-event-type='link' data-ss-lecture-id='31455559'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31455559' id='sidebar_link_31455559'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                11- Publishing Changes
+                
+                (2:42)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="31456476" data-lecture-url='/courses/the-ultimate-docker-course/lectures/31456476' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='1359863'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/the-ultimate-docker-course/lectures/31456476'
+            data-ss-event-type='link' data-ss-lecture-id='31456476'
+            data-ss-position='7' data-ss-school-id='146684'
+            data-ss-user-id='46406596' href='/courses/the-ultimate-docker-course/lectures/31456476' id='sidebar_link_31456476'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                12- Course Wrap Up
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+
+      <!-- Lecture Content -->
+<div role="main" class="course-mainbar lecture-content full-width-content">
+  <!-- Meta tag for tracking lecture progress -->
+  <meta id="lecture-completion-data" data-valid-for-completion="true" data-last-lecture-id="31447542" data-remaining-preceding-lectures="[{&quot;id&quot;:31447542,&quot;name&quot;:&quot;18- Summary&quot;,&quot;position&quot;:18,&quot;is_published&quot;:true,&quot;free_preview&quot;:false,&quot;duration&quot;:null,&quot;video_attachments_count&quot;:0,&quot;quiz_attachments_count&quot;:0,&quot;audio_attachments_count&quot;:0,&quot;primary_attachment_kind&quot;:&quot;pdf_embed&quot;,&quot;formatted_duration&quot;:&quot;&quot;,&quot;url&quot;:&quot;/courses/the-ultimate-docker-course/lectures/31447542&quot;,&quot;primary_attachment_type&quot;:&quot;text&quot;,&quot;icon&quot;:&quot;fa-file-text&quot;,&quot;icon_v2&quot;:&quot;file-alt-solid.svg&quot;,&quot;icon_v3&quot;:&quot;Subject&quot;,&quot;days&quot;:null,&quot;release_date&quot;:null,&quot;is_dripped_by_date&quot;:null,&quot;course_id&quot;:1359863,&quot;section_position&quot;:3,&quot;lecture_section_id&quot;:5806788}]" data-last-lecture-url="/courses/1359863/lectures/31447542" data-is-completed="false" data-can-access-lecture="true" data-compliance-enabled="false" />
+  <h2 id="lecture_heading" class="section-title dsp-flex-xs flex-align-items-center-xs" data-lecture-id="31450209" data-next-lecture-id="31450215" data-lecture-url="/courses/1359863/lectures/31450209" data-next-lecture-url="/courses/1359863/lectures/31450215", data-previous-lecture-url="/courses/1359863/lectures/31448937" data-previous-lecture-id="31448937" >
+    <svg width="24" height="24">
+        <use xlink:href="#icon__Video"></use>
+      </svg>
+    &nbsp;
+    1- Introduction
+</h2>
+
+  <!-- Attachment Blocks -->
+
+  <div
+    class='lecture-attachment lecture-attachment-type-video'
+    id="lecture-attachment-55598810"
+  >
+    <div class="attachment-data"></div>
+    
+      <!-- Attachment: Video -->
+
+  
+    <div class="wistia_responsive_padding">
+      <div class="wistia_responsive_wrapper">
+        <div class='attachment-wistia-player stillSnap=false wistia_embed videoFoam=true' data-wistia-id='gk9228lywf' id='wistia-gk9228lywf'  data-still-url='https://embed-ssl.wistia.com/deliveries/6ed8dcdeb9b1f3320a05375f4513af7fb6ebf10f.jpg?image_crop_resized=200x120'  data-attachment-id='55598810'></div>
+      </div>
+    </div>
+  
+
+
+<!-- Video actions -->
+
+<div class='video-options'>
+    
+    <a
+      class='download'
+      href='https://cdn.fs.teachablecdn.com/n0Q7fVv6R0CBPVTyM9yO'
+      target='_blank'
+      rel='noopener'
+      download
+      data-x-origin-download
+      data-x-origin-download-name='1- Introduction.mp4'
+      aria-label="Download this video"
+    >
+      <div class='span glyphicon glyphicon-save'></div>
+      Download
+    </a>
+</div>
+
+
+    
+  </div>
+
+
+<!-- Comments -->
+
+
+
+<div id='empty_box'></div>
+<!-- Scroll to current lecture link position in sidebar -->
+
+</div>
+
+    </section>
+    <!-- No lecture footer in the new redesign -->
+
+    
+  </body>
+</html>

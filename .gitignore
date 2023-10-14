@@ -1,0 +1,12 @@
+
+.vscode/
+venv/
+__pycache__/
+
+.DS_Store
+.*(.*)/
+
+# ignore directories having (.*) in their name
+*/.*(.*)/
+
+
